@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia prático para professores sobre Inteligência Artificial na educação: panorama da pesquisa brasileira, ferramentas de IA, podcasts e newsletters, cursos oficiais e bibliografia ABNT.">
+  <meta name="author" content="Verônica Silveira">
+  <title>Inteligência Artificial na Educação: Ferramentas e Atualizações</title>
+
+  <!-- Google Fonts: Fraunces (títulos) & Inter (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <header class="top-nav">
+    <div class="container nav-container">
+      <a href="#topo" class="nav-brand">
+        <span class="brand-mark">AI</span>
+        <span class="brand-title">IA na Educação</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#panorama">Panorama</a>
+        <a href="#ferramentas">Ferramentas de IA</a>
+        <a href="#formacao">Podcasts &amp; Formação</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#leituras">Bibliografia</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#materiais" class="nav-cta-btn">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Materiais</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- CABEÇALHO HERO -->
+  <header class="site-header" id="topo">
+    <div class="container">
+      <p class="header-eyebrow">Guia prático &amp; panorama científico para educadores</p>
+      <h1 class="header-title">Inteligência Artificial na Educação</h1>
+      <p class="header-subtitle">Um roteiro curado para professores que querem entender a pesquisa, escolher as ferramentas certas e otimizar a rotina em sala de aula &mdash; sem ruído e sem modismo.</p>
+
+      <div class="header-actions">
+        <a href="./material-ia-educacao.pdf" download="material-ia-educacao.pdf" class="btn-primary">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Baixar o guia completo
+        </a>
+        <a href="#ferramentas" class="btn-secondary">Explorar ferramentas</a>
+      </div>
+
+      <ul class="header-stats">
+        <li><strong>9</strong> recursos selecionados</li>
+        <li><strong>45,8%</strong> da produção em IA na América Latina é do Brasil</li>
+        <li><strong>7</strong> referências em padrão ABNT</li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- SEÇÃO: PANORAMA DA PESQUISA NO BRASIL -->
+    <section id="panorama" class="section-block bg-deep">
+      <div class="container">
+        <div class="section-meta">
+          <p class="eyebrow">Dados empíricos &amp; diagnóstico</p>
+          <h2 class="section-title">Panorama da pesquisa em IA na educação</h2>
+          <p class="section-subtitle">Evidências científicas sobre a liderança regional do Brasil, aplicações educacionais e os desafios éticos e estruturais.</p>
+        </div>
+
+        <div class="stats-overview-grid">
+          <div class="stat-card">
+            <div class="stat-number">45,8%</div>
+            <div class="stat-title">Liderança na América Latina</div>
+            <p class="stat-desc">No recorte 2020&ndash;2025, o Brasil concentrou quase metade de toda a pesquisa indexada sobre IA na América Latina, superando Chile (8,9%), Peru (4,1%) e Argentina (3,1%).</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">91% <span class="stat-vs">vs</span> 58%</div>
+            <div class="stat-title">Desigualdade de infraestrutura</div>
+            <p class="stat-desc">Enquanto 91% das escolas privadas no Brasil possuem computadores para os alunos, apenas 58% das escolas públicas atendem a esse requisito básico (Viola et al., 2025).</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">572+</div>
+            <div class="stat-title">Citações: BERTimbau</div>
+            <p class="stat-desc">O modelo brasileiro de linguagem em português treinado por brasileiros tornou-se estado da arte e marco fundamental para pesquisas de NLP no país (Souza et al., 2020).</p>
+          </div>
+        </div>
+
+        <div class="slide-content-grid">
+          <div class="info-box">
+            <div class="box-header">
+              <span class="box-num" aria-hidden="true">I</span>
+              <h3>Escala comparada &amp; impacto</h3>
+            </div>
+            <ul class="info-list">
+              <li><strong>Brasil em destaque:</strong> 7.026 artigos e 111.677 citações entre 2013 e 2023, liderando o continente em volume e citações.</li>
+              <li><strong>Desafio global:</strong> apesar da liderança na América do Sul, o país ainda mantém posição periférica perante potências como EUA e China.</li>
+              <li><strong>Gargalo geográfico:</strong> forte concentração da produção científica nas universidades do Sudeste (USP, Unicamp, UFRGS, UFMG e UNIFESP).</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <div class="box-header">
+              <span class="box-num" aria-hidden="true">II</span>
+              <h3>Aplicações no ensino brasileiro</h3>
+            </div>
+            <ul class="info-list">
+              <li><strong>Avaliação de leitura:</strong> modelos automatizados de leitura oral atingem correlação &gt;0,90 com avaliadores humanos do 2º ao 5º ano (Viola et al., 2025).</li>
+              <li><strong>Retenção &amp; predição:</strong> redes neurais aplicadas ao Instituto Federal de Goiás prevendo desempenho estudantil com alta acurácia (De Melo Júnior et al., 2020).</li>
+              <li><strong>Robótica educacional:</strong> projeto Zequinha atuando como mediador cultural e educacional offline em instituições brasileiras (Da Cunha et al., 2026).</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <div class="box-header">
+              <span class="box-num" aria-hidden="true">III</span>
+              <h3>Riscos, LGPD &amp; autonomia</h3>
+            </div>
+            <ul class="info-list">
+              <li><strong>Alucinações &amp; responsabilidade:</strong> modelos generativos exigem supervisão docente humana constante para evitar erros conceituais (Vitorino &amp; Júnior, 2023).</li>
+              <li><strong>Proteção de dados (LGPD):</strong> projetos públicos enfrentam entraves legais para garantir a privacidade de estudantes em plataformas de IA (Portela et al., 2024).</li>
+              <li><strong>Vigilância docente:</strong> instrutores alertam para o risco de ferramentas de analítica de aprendizagem invadirem o trabalho pedagógico (Falcão et al., 2020).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: FERRAMENTAS DE IA -->
+    <section id="ferramentas" class="section-block">
+      <div class="container">
+        <div class="section-meta">
+          <p class="eyebrow">Curadoria prática</p>
+          <h2 class="section-title">Ferramentas de Inteligência Artificial</h2>
+          <p class="section-subtitle">Seis aplicações diretas para professores otimizarem pesquisa, criação didática e gestão do tempo &mdash; cada uma com um propósito específico, sem sobreposição.</p>
+        </div>
+
+        <div class="tools-grid">
+
+          <!-- CARD 1: Consensus -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <path d="M11 7v4l3 2"></path>
+                </svg>
+              </div>
+              <span class="category-pill">Pesquisa científica</span>
+            </div>
+            <h3 class="tool-title"><a href="https://consensus.app/" target="_blank" rel="noopener noreferrer">Consensus</a></h3>
+            <p class="tool-description">Mecanismo de busca dedicado a consultar e sintetizar literatura científica revisada por pares. Use para fundamentar currículos em dados empíricos e ensinar metodologia de pesquisa aos alunos, com rigor científico.</p>
+            <a href="https://consensus.app/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CARD 2: Manus -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                  <path d="M12 7v4m-2-2h4"></path>
+                </svg>
+              </div>
+              <span class="category-pill">Agente autônomo</span>
+            </div>
+            <h3 class="tool-title"><a href="https://manus.im/app" target="_blank" rel="noopener noreferrer">Manus</a></h3>
+            <p class="tool-description">Agente autônomo voltado à execução de tarefas estruturadas &mdash; geração de arquivos, apresentações completas e sites &mdash; de forma assíncrona. Delegue a ele a elaboração técnica e visual de materiais didáticos.</p>
+            <a href="https://manus.im/app" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CARD 3: ChatGPT -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  <line x1="8" y1="9" x2="16" y2="9"></line>
+                  <line x1="8" y1="13" x2="14" y2="13"></line>
+                </svg>
+              </div>
+              <span class="category-pill">Geração de texto</span>
+            </div>
+            <h3 class="tool-title"><a href="https://openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a></h3>
+            <p class="tool-description">Modelo de linguagem natural generalista, otimizado para geração, revisão e estruturação de textos. Na docência, funciona como gerador de rascunhos para avaliações, planos de aula e comunicações administrativas.</p>
+            <a href="https://openai.com/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CARD 4: Gemini -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z"></path>
+                </svg>
+              </div>
+              <span class="category-pill">Multimodalidade</span>
+            </div>
+            <h3 class="tool-title"><a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">Gemini</a></h3>
+            <p class="tool-description">Arquitetura nativamente multimodal, para processamento simultâneo de texto, imagem, áudio e vídeo. Use para analisar e transcrever vídeos educacionais ou cruzar fontes visuais e textuais em materiais mais complexos.</p>
+            <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CARD 5: DeepSeek -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                  <line x1="14" y1="4" x2="10" y2="20"></line>
+                </svg>
+              </div>
+              <span class="category-pill">Lógica &amp; exatas</span>
+            </div>
+            <h3 class="tool-title"><a href="https://www.deepseek.com/en/" target="_blank" rel="noopener noreferrer">DeepSeek</a></h3>
+            <p class="tool-description">Modelo otimizado para alto desempenho em processamento lógico-matemático e geração de código. Professores de exatas podem aplicá-lo para resoluções sequenciais de equações e depuração de avaliações de programação.</p>
+            <a href="https://www.deepseek.com/en/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CARD 6: NotebookLM -->
+          <article class="tool-card">
+            <div class="card-top">
+              <div class="logo-wrapper">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  <line x1="9" y1="7" x2="15" y2="7"></line>
+                  <line x1="9" y1="11" x2="15" y2="11"></line>
+                </svg>
+              </div>
+              <span class="category-pill">Síntese documental</span>
+            </div>
+            <h3 class="tool-title"><a href="https://notebook.google.com/" target="_blank" rel="noopener noreferrer">NotebookLM</a></h3>
+            <p class="tool-description">Assistente de pesquisa ancorado estritamente nos documentos fornecidos pelo usuário, o que reduz alucinações. Faça upload da bibliografia obrigatória para gerar guias de estudo fiéis àquele escopo.</p>
+            <a href="https://notebook.google.com/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: PODCASTS, NEWSLETTERS E FORMAÇÃO -->
+    <section id="formacao" class="section-block bg-deep">
+      <div class="container">
+        <div class="section-meta">
+          <p class="eyebrow">Para se manter atualizado</p>
+          <h2 class="section-title">Podcasts, newsletters e formação</h2>
+          <p class="section-subtitle">Diferente das ferramentas acima, estes recursos não geram conteúdo &mdash; eles mantêm você informado e capacitado. Um portal de notícias, um resumo semanal e um curso oficial do MEC.</p>
+        </div>
+
+        <div class="channels-grid">
+
+          <!-- CANAL 1: IA Todo Dia -->
+          <article class="channel-card">
+            <div class="channel-top">
+              <span class="channel-tag tag-podcast">Portal &amp; Podcast</span>
+            </div>
+            <h3 class="channel-title"><a href="https://iatododiaoficial.com.br/" target="_blank" rel="noopener noreferrer">IA Todo Dia</a></h3>
+            <p class="channel-description">Portal e podcast de notícias focado no que acontece no Brasil. Mostra como a IA está mudando as leis, o mercado de trabalho e a sociedade brasileira &mdash; material ideal para debater com os alunos os impactos reais da tecnologia na nossa realidade.</p>
+            <a href="https://iatododiaoficial.com.br/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CANAL 2: Mindstream -->
+          <article class="channel-card">
+            <div class="channel-top">
+              <span class="channel-tag tag-newsletter">Newsletter</span>
+            </div>
+            <h3 class="channel-title"><a href="https://www.mindstream.news/" target="_blank" rel="noopener noreferrer">Mindstream</a></h3>
+            <p class="channel-description">Boletim gratuito que resume as principais novidades mundiais sobre IA em uma leitura de 5 minutos. Funciona como um filtro: em vez de caçar novidades, você recebe por e-mail as ferramentas que realmente funcionam para montar aulas e automatizar tarefas.</p>
+            <a href="https://www.mindstream.news/" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <!-- CANAL 3: AVAMEC -->
+          <article class="channel-card">
+            <div class="channel-top">
+              <span class="channel-tag tag-formacao">Formação oficial &middot; MEC</span>
+            </div>
+            <h3 class="channel-title"><a href="https://avamec.mec.gov.br/v2/#/curso/listar?idTema=30" target="_blank" rel="noopener noreferrer">AVAMEC &mdash; Inteligência Artificial</a></h3>
+            <p class="channel-description">Ambiente Virtual de Aprendizagem do Ministério da Educação. Oferece cursos oficiais, gratuitos e com certificação &mdash; a fonte mais segura para aprender o básico de IA alinhado às diretrizes públicas oficiais.</p>
+            <a href="https://avamec.mec.gov.br/v2/#/curso/listar?idTema=30" target="_blank" rel="noopener noreferrer" class="card-link">Acessar <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: MATERIAIS PARA BAIXAR -->
+    <section id="materiais" class="section-block">
+      <div class="container">
+        <div class="section-meta">
+          <p class="eyebrow">Leve para a sua aula</p>
+          <h2 class="section-title">Materiais para baixar</h2>
+          <p class="section-subtitle">Os dois arquivos abaixo estão disponíveis para download imediato, sem cadastro.</p>
+        </div>
+
+        <div class="downloads-grid">
+
+          <article class="download-card">
+            <div class="download-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="download-body">
+              <h3 class="download-title">Guia completo: IA na Educação</h3>
+              <p class="download-description">Material de apoio integral, com todo o panorama de pesquisa, ferramentas comentadas e bibliografia.</p>
+              <span class="download-meta">PDF &middot; 4,4 MB</span>
+            </div>
+            <a href="./material-ia-educacao.pdf" download="material-ia-educacao.pdf" class="btn-download">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Baixar PDF
+            </a>
+          </article>
+
+          <article class="download-card">
+            <div class="download-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+            <div class="download-body">
+              <h3 class="download-title">Slides: panorama completo</h3>
+              <p class="download-description">Apresentação com os dados da pesquisa em IA na educação, pronta para uso em reuniões pedagógicas.</p>
+              <span class="download-meta">PDF &middot; 347 KB</span>
+            </div>
+            <a href="./slides_panorama_completo_IA_EDUCACAO.pptx.pdf" download="slides-panorama-ia-educacao.pdf" class="btn-download">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Baixar PDF
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: BIBLIOGRAFIA ABNT -->
+    <section id="leituras" class="section-block bg-deep">
+      <div class="container">
+        <div class="section-meta">
+          <p class="eyebrow">Rigor acadêmico &amp; fontes relevantes</p>
+          <h2 class="section-title">Recomendações de leitura</h2>
+          <p class="section-subtitle">Referências bibliográficas estruturadas conforme o padrão <strong>ABNT NBR 6023:2018</strong> para embasamento acadêmico.</p>
+        </div>
+
+        <ol class="biblio-list">
+
+          <li class="biblio-item">
+            <span class="biblio-num">01</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">O clássico sobre computação simbólica</h4>
+              <p class="biblio-ref">WINSTON, Patrick Henry. <strong>Artificial Intelligence</strong>. 3. ed. Reading, Mass.: Addison-Wesley Publishing Company, 1992 (reimpressão com correções em maio de 1993). 737 p. ISBN 0-201-53377-4.</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">02</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">O artigo seminal que originou o Teste de Turing</h4>
+              <p class="biblio-ref">TURING, Alan M. Computing Machinery and Intelligence. <strong>Mind</strong>, Oxford, v. 59, n. 236, p. 433-460, out. 1950.</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">03</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">Coletânea de estudos filosóficos antigos</h4>
+              <p class="biblio-ref">CASSAN, Melania; CASTELLANI, Barbara; MASI, Francesca (org.). <strong>Episteme e Ratio</strong>. Roma: Tab edizioni, set. 2025. 488 p. (Doxai: Testi e studi di filosofia antica, v. 4). ISBN 979-12-5669-193-7 (impressa); ISBN 979-12-5669-194-4 (digital open access).</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">04</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">A trajetória histórica e o futuro da IA</h4>
+              <p class="biblio-ref">JIANG, Yuchen <em>et al</em>. Quo vadis artificial intelligence? <strong>Discover Artificial Intelligence</strong>, [s. l.], v. 2, n. 4, p. 1-22, mar. 2022. DOI: 10.1007/s44163-022-00022-8.</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">05</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">A evolução da verdade e do conceito de Aletheia</h4>
+              <p class="biblio-ref">WOLEŃSKI, Jan. Aletheia in Greek thought until Aristotle. <strong>Annals of Pure and Applied Logic</strong>, Amsterdam, v. 127, n. 1-3, p. 339-360, jun. 2004. DOI: 10.1016/j.apal.2003.11.020.</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">06</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">O telos de Aristóteles e a ética na IA</h4>
+              <p class="biblio-ref">ADIDI, Dokpesi Timothy. Aristotle's Concept of Telos and Artificial Intelligence: Exploring the Relevance of Classical Philosophy to Contemporary AI Development. <strong>AMAMIHE: Journal of Applied Philosophy</strong>, Imo, v. 22, n. 3, p. 60-67, jul. 2024. ISSN 1597-0779. DOI: 10.13140/RG.2.2.30799.70560.</p>
+            </div>
+          </li>
+
+          <li class="biblio-item">
+            <span class="biblio-num">07</span>
+            <div class="biblio-body">
+              <h4 class="biblio-tag">Os primeiros passos e a programação heurística</h4>
+              <p class="biblio-ref">MINSKY, Marvin. Steps toward Artificial Intelligence. <strong>Proceedings of the IRE</strong>, [s. l.], v. 49, n. 1, p. 8-30, jan. 1961. DOI: 10.1109/JRPROC.1961.287775.</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-author">Idealizado e desenvolvido por <strong>Verônica Silveira</strong></p>
+      <a href="https://academiaisidoro.wordpress.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+        Acesse o blog: Academia Isidoro <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
