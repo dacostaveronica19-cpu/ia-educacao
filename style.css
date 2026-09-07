@@ -569,6 +569,8 @@ a {
 
 #newsletter-widget {
   flex-shrink: 0;
+  width: 320px;
+  max-width: 100%;
 }
 
 /* ---------- NOVIDADES DO BLOG ---------- */
